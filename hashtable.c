@@ -28,7 +28,7 @@ enum bucket_flag {
 
 size_t header_size = 1024;
 
-#define bucket_size     1280
+#define bucket_size     128000
 #define max_key_size    256
 #define max_value_size  (bucket_size - max_key_size)
 
